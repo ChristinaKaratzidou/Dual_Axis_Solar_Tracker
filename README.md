@@ -45,13 +45,13 @@ Energy Efficiency: Maximizes solar energy harvested throughout the day.
 - Top-Right LDR → PA0 (ADC1_IN0)
 - Top-Left LDR → PA1 (ADC1_IN1)
 - Bottom-Right LDR → PA4 (ADC1_IN4)
-- Bottom-Left LDR → PA5 (ADC1_IN5)
+- Bottom-Left LDR → PA6 (ADC1_IN6)
 - All LDRs need 10kΩ pull-down resistors to GND
 - Other end of LDRs → 3.3V
 
 ### **Servo Motors**
-- X-axis Servo Signal → PA6 (TIM3_CH1)
-- Y-axis Servo Signal → PA7 (TIM3_CH2
+- X-axis Servo Signal → PB6 (TIM4_CH1)
+- Y-axis Servo Signal →PB7 (TIM4_CH2)
 - Servo VCC → 5V from Buck Converter
 - Servo GND → Common Ground
 
@@ -70,8 +70,8 @@ Energy Efficiency: Maximizes solar energy harvested throughout the day.
 ### **I2C LCD Display**
 - VCC → 3.3V
 - GND → Common Ground
-- SDA → PB7 (I2C1_SDA)
-- SCL → PB6 (I2C1_SCL)
+- SDA → PB3 (I2C1_SDA)
+- SCL → PB8 (I2C1_SCL)
 
 ---
 
