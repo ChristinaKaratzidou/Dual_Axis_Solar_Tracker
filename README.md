@@ -42,10 +42,10 @@ Energy Efficiency: Maximizes solar energy harvested throughout the day.
 - 18650 Battery connects to B+ and B- on TP4056
 
 ### **LDRs (with 10kΩ voltage divider resistors)**
-- Top-Right LDR → PA0 (ADC1_IN1)
-- Top-Left LDR → PA1 (ADC1_IN4)
-- Bottom-Right LDR → PA4 (ADC1_IN6)
-- Bottom-Left LDR → PA6 (ADC1_IN7)
+- Top-Right LDR → PA1 (ADC1_IN1)
+- Top-Left LDR → PA4 (ADC1_IN4)
+- Bottom-Right LDR → PA6 (ADC1_IN6)
+- Bottom-Left LDR → PA7 (ADC1_IN7)
 - All LDRs need 10kΩ pull-down resistors to GND
 - Other end of LDRs → 3.3V
 
@@ -70,7 +70,7 @@ Energy Efficiency: Maximizes solar energy harvested throughout the day.
 ### **I2C LCD Display**
 - VCC → 3.3V
 - GND → Common Ground
-- SDA → PB3 (I2C1_SDA)
+- SDA → PB9 (I2C1_SDA)
 - SCL → PB8 (I2C1_SCL)
 
 ---
